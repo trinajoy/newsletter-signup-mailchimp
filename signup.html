@@ -20,27 +20,55 @@
     />
 
     <link href="css/styles.css" rel="stylesheet" />
-
   </head>
-  <body class="text-center">
-    <form class="form-signin" action="/" method="post">
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- fashion image  -->
+        <div class="col-lg-5 col-image">
+          <div class="image-container">
+            <img class="fashion-model" src="/images/fashion.jpg" alt="" />
+          </div>
+        </div>
 
-      <img class="mb-4" src="images/logo.jpeg" alt="" width="140" height="100"
-      />
-      <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <!-- newsletter -->
+        <div class="col-lg-6 mx-auto d-flex align-items-center">
+          <form class="form-signup" action="/" method="post">
+            <h1>KOOKÅI</h1>
+            <h2>
+              Sign up to our newsletter to receive the latest upates about our
+              new arrivals, VIP events and sale previews
+            </h2>
+            <input
+              type="text"
+              name="firstName"
+              class="form-control"
+              placeholder="first name"
+              required
+              autofocus
+            />
+            <input
+              type="text"
+              name="lastName"
+              class="form-control"
+              placeholder="last name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="email"
+              required
+            />
 
-      <input type="text" name="firstName" class="form-control top" placeholder="First Name" required autofocus
-      />
-      <input type="text" name="lastName" class="form-control middle" placeholder="Last Name" required
-      />
-      <input type="email" name="email" class="form-control bottom" placeholder="Email" required
-      />
-
-      <button class="btn btn-lg btn-primary btn-block" type="submit">
-        Sign Me Up
-      </button>
-      <p class="mt-5 mb-3 text-muted">&copy; The App Brewery</p>
-    </form>
+            <button class="btn btn-lg btn-dark btn-block" type="submit">
+              SIGN UP
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

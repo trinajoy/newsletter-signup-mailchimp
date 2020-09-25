@@ -7,6 +7,7 @@ A simple newsletter signup using Mailchimp API, Bootstrap, Express App & hosted 
 ## Project Specifications
 
 - Add a subscriber to a mailing list
+- Design based on KOOKAI newsletter: https://kookai.co.uk
 
 ## Custom Environment Variables
 
@@ -22,3 +23,11 @@ A simple newsletter signup using Mailchimp API, Bootstrap, Express App & hosted 
 
 - Procfile : tell Heroku how to launch the app
 - add Config Vars : API_AUTH, API_KEY, LIST_ID
+
+## References
+
+- image: unsplash: caique-silva-BOHyxqepP9Y-unsplash.jpg
+
+## Run App
+
+- npx nodemon app.js

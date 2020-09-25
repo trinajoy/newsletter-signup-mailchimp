@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400&display=swap");
+
 html,
 body {
   height: 100%;
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 body {
@@ -13,37 +17,83 @@ body {
   background-color: #f5f5f5;
 }
 
-.form-signin {
+h1 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.col-image {
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  height: auto;
+  margin: auto;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.image-container {
+  width: 100%;
+  background-color: red;
+}
+
+.fashion-model {
+  width: 100%;
+  height: auto;
+}
+
+form {
+  margin: auto;
+}
+
+.form-signup {
   width: 100%;
   max-width: 330px;
   padding: 15px;
   margin: auto;
+  flex-direction: column;
 }
-.form-signin .checkbox {
-  font-weight: 400;
-}
-.form-signin .form-control {
+
+.form-signup .form-control {
   position: relative;
   box-sizing: border-box;
   height: auto;
   padding: 10px;
   font-size: 16px;
 }
-.form-signin .form-control:focus {
+
+.form-signup input {
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.form-signup input {
+  text-indent: 20px;
+}
+
+.form-signup input::placeholder {
+  font-size: 14px;
+}
+
+.form-signup button {
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  background-color: #000;
+}
+
+.form-signup .form-control:focus {
   z-index: 2;
 }
-.top {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
 
-.middle {
-  border-radius: 0;
-}
-
-.bottom {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
+@media (max-width: 990px) {
+  .col-image {
+    display: none;
+  }
 }
