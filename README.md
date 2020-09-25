@@ -2,7 +2,11 @@ project by @trinajoy
 
 ## Newsletter Signup
 
-Add a subscriber to a newsletter mailing list using mailchimp API
+A simple newsletter signup using Mailchimp API, Bootstrap, Express App & hosted on Heroku.
+
+## Project Specifications
+
+- Add a subscriber to a mailing list
 
 ## Custom Environment Variables
 
