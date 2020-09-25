@@ -6,7 +6,7 @@ Add a subscriber to a newsletter mailing list using mailchimp API
 
 ## Custom Environment Variables
 
-- Use custom environment variables to hide Contentful API Key
+- Use custom environment variables to hide Mailchimp API Key
 - see `.env_sample` for how to add api key
 - add `.env` to `.gitignore`
 - add `dotenv` to project `npm i dotenv`
